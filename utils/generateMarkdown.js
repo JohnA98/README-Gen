@@ -20,13 +20,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case "apache":
-      return "![License:](https://opensource.org/licenses/Apache-2.0)";
+      return "[License: Apache-2.0](https://opensource.org/licenses/Apache-2.0)";
       break;
     case "MIT":
-      return "![License: MIT](https://opensource.org/licenses/MIT)";
+      return "[License: MIT](https://opensource.org/licenses/MIT)";
       break;
     case "GNU":
-      return "![License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)";
+      return "[License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)";
       break;
     default:
       return "";
@@ -82,8 +82,8 @@ ${data.test}
 
 ## Questions
 
-Github: ${data.username}
-Email: ${data.email}
+Github: ${data.username} \n
+Email: ${data.email} \n
 You can reach me here with any additional questions.
 
 `;
